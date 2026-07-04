@@ -1,0 +1,73 @@
+# .project metadata for Kubewarden
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kubewarden"
+name: "Kubewarden"
+description: "Kubewarden is a Policy Engine powered by WebAssembly policies. Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and consumers to use their preferred tooling and stack, develop and test policies out of cluster. "
+type: "project"
+project_lead: "flavio" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kubewarden"
+    link: "https://kubernetes.slack.com/"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2022-06-17T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/213" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubewarden/kubewarden-controller"
+
+website: "https://www.kubewarden.io"
+
+artwork: "https://landscape.cncf.io/logos/kubewarden.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kubewarden/adm-controller/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubewarden/adm-controller"
+
+social:
+  twitter: "https://twitter.com/kubewarden"
+
+security:
+  policy:
+    path: "https://github.com/kubewarden/.github/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubewarden/adm-controller/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubewarden/adm-controller/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/kubewarden/adm-controller/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubewarden/adm-controller/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 99/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 92
