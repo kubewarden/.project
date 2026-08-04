@@ -24,6 +24,7 @@ repositories:
   - "https://github.com/kubewarden/sbomscanner"
   - "https://github.com/kubewarden/policies"
   - "https://github.com/kubewarden/helm-charts"
+  - "https://github.com/kubewarden/rego-policies-library"
 
 website: "https://www.kubewarden.io"
 
