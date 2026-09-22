@@ -4,7 +4,7 @@
 schema_version: "1.0.0"
 slug: "kubewarden"
 name: "Kubewarden"
-description: "Kubewarden is a Policy Engine powered by WebAssembly policies. Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and consumers to use their preferred tooling and stack, develop and test policies out of cluster. "
+description: "Kubewarden is an open source security platform for Kubernetes: a set of complementary components to secure your workloads across the entire lifecycle, from admission to runtime. It includes the Admission Controller (a policy engine powered by WebAssembly policies written in CEL, Rego, Rust, Go, YAML, and others), the Network Enforcer, the Runtime Enforcer, and the SBOM Scanner."
 type: "project"
 project_lead: "flavio"
 slack_channels:
@@ -21,9 +21,11 @@ maturity_log:
 
 repositories:
   - "https://github.com/kubewarden/adm-controller"
+  - "https://github.com/kubewarden/network-enforcer"
+  - "https://github.com/kubewarden/runtime-enforcer"
   - "https://github.com/kubewarden/sbomscanner"
-  - "https://github.com/kubewarden/policies"
   - "https://github.com/kubewarden/helm-charts"
+  - "https://github.com/kubewarden/policies"
   - "https://github.com/kubewarden/rego-policies-library"
 
 website: "https://www.kubewarden.io"
@@ -38,8 +40,10 @@ package_managers:
 
 social:
   bluesky: "https://bsky.app/profile/kubewarden.io"
+  linkedin: "https://www.linkedin.com/company/kubewarden/"
   mastodon: "https://hachyderm.io/@kubewarden"
-  twitter: "https://twitter.com/kubewarden"
+  slack: "https://kubernetes.slack.com/messages/kubewarden"
+  twitter: "https://x.com/kubewarden"
 
 security:
   policy:
@@ -72,7 +76,7 @@ legal:
 
 documentation:
   readme:
-    path: "https://github.com/kubewarden/adm-controller/blob/main/README.md"
+    path: "https://github.com/kubewarden/.github/blob/main/profile/README.md"
   support:
     path: "https://docs.kubewarden.io"
   api:
