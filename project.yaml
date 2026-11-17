@@ -30,7 +30,7 @@ repositories:
 
 website: "https://www.kubewarden.io"
 
-artwork: "https://landscape.cncf.io/logos/kubewarden.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kubewarden"
 
 adopters:
   path: "https://github.com/kubewarden/community/blob/main/ADOPTERS.md"
